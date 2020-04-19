@@ -1,8 +1,5 @@
-
-# Set module name from the list:
+# Set module name - i use 'sma_' prefix
 program_name = sma_chardev
-
-
 obj-m += sma_chardev.o
 
 all:
@@ -23,12 +20,6 @@ p:
 # clear dmesg
 c:
 	dmesg -c
-
-mknod:
-	echo "Make node"
-
-rmnod:
-	echo "Remove node"
 
 info:
 	modinfo $(program_name).ko 			#userspace program prints .modinfo section
