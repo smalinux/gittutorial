@@ -24,6 +24,7 @@ Make utilities:
 * $make i == insmod
 * $make p == print dmesg
 * $make c == Clear dmesg
+* $make r == rmmod
 * $make info == modinfo
 * $make clear == clear!
 
