@@ -7,7 +7,7 @@ git clone https://github.com/smalinux/ps-aux
 cd ps-aux
 ```
 
-## build and installation
+## Build and installation
 ```
 make all
 make i
