@@ -1,5 +1,5 @@
 # ps-aux
-Simple easy-to-use Linux kernel module takes my PID from users as input, then prints some info into dmesg.
+Simple easy-to-use Linux kernel module takes PID from users as input, then expose some info into dmesg.
 
 ## Download
 ```
