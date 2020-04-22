@@ -32,7 +32,7 @@ Make utilities:
 * Read about virtual memory from mm_struct.
 * list children of a proc properly.
 * Print recurve PID info.
-* Not use dmesg any more, Make a virtual.
+* Not use dmesg any more, Make a virtual fs.
 
 ### My references
 * linux cross reference
