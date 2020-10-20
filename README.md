@@ -10,7 +10,7 @@ cd ps-aux
 ## Build and installation
 ```
 make all
-make i
+sudo make i
 ```
 ## How to use
 ```
