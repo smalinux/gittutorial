@@ -1,0 +1,13 @@
+# minimalist up and runnig GUI
+
+How to run it:
+....
+#1 first build the repo
+make
+#2 edit .xinitrc
+exec /repo/location/swm/x11
+#3 move to any tty and run this command
+startx
+....
+
+TODO: video demo.
