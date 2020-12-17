@@ -9,5 +9,3 @@ exec /repo/location/swm/x11
 #3 move to any tty and run this command
 startx
 ....
-
-TODO: video demo.
