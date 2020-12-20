@@ -16,6 +16,8 @@ Branching & merging
 ===================
 git checkout master				Sit in your base branch 
 git merge hotfix				merge hotfix branch to master(base branch)
+=======
+
 
 
 
