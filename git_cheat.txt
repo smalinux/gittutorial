@@ -1,0 +1,63 @@
+
+
+BRANCH & MERGE
+===============================================================================
+Isolating work in branches, changing context, and integrating changes
+
+Branching basics
+===================
+git branch					list your branches. a * will appear next to the currently active branch
+git branch [branch-name]			create a new branch at the current commit
+git checkout 					switch to another branch and check it out into your working directory
+git merge [branch]				merge the specified branch’s history into the current one
+git log						show all commits in the current branch’s history
+
+Branching & merging
+===================
+git checkout master				Sit in your base branch 
+git merge hotfix				merge hotfix branch to master(base branch)
+
+
+
+
+
+
+
+git switch [duplicated by checkout]
+===============================================================================
+git switch <testing-branch>
+	Switch to an existing branch
+git switch -c <new-branch>
+	Create a new branch and switch to it
+git switch -
+	Return to your previously checked out branch
+
+
+
+
+
+
+git checkout
+===============================================================================
+git checkout -b <newbranchname>
+	create a new branch and want to switch to that new branch at the same time.
+
+
+
+
+
+
+
+git log
+==============================================
+git log --oneline --decorate
+	shows you where the branch pointers are pointing.
+
+
+
+
+
+
+
+Google: git list all branches
+Google: git checkout vs switch
