@@ -7,7 +7,6 @@
 * https://datasift.github.io/gitflow/IntroducingGitFlow.html:[Introducing GitFlow]
 * https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac:[gitflow-breakdown.md]
 
-HEAD ??
 ## rebase
 * https://stackoverflow.com/questions/16666089/whats-the-difference-between-git-merge-and-git-rebase/16666418#16666418:[What's the difference between 'git merge' and 'git rebase'?]
 * 
@@ -19,11 +18,8 @@ https://stackoverflow.com/questions/35703556/what-does-it-mean-to-squash-commits
 ## Google:
 * how to write git commit message
 * 
-=======
-Change from github #1
 
-New change #1 from #warriortheme
+## My fancy resources
 
-Last but not least
-
-begain again
+* https://git-scm.com/book/:[The entire Pro Git book]
+* 
