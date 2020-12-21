@@ -69,6 +69,11 @@ opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse
 diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
 
 
+=======
+git branch branchname <sha1-of-commit>		I can make branch from anywhere
+						https://stackoverflow.com/a/2816728/5688267
+						https://stackoverflow.com/a/8491176/5688267
+=======
 
 
 Google: git list all branches
