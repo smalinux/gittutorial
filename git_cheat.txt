@@ -16,7 +16,7 @@ Branching & merging
 ===================
 git checkout master				Sit in your base branch 
 git merge hotfix				merge hotfix branch to master(base branch)
-
+git branch -d hotfix				delete hotfix branch because you don't need it any more
 
 
 
@@ -44,7 +44,13 @@ git checkout -b <newbranchname>
 	create a new branch and want to switch to that new branch at the same time.
 
 
-
+git branch
+===============================================================================
+git branch					list all branchs
+git branch <b_name>				Create branch
+git branch -b <b_name>				Delete branch
+git branch --move <old> <new>
+git push --set-upstream origin main		This makes the renamed branch available on the remote.
 
 
 
@@ -56,6 +62,11 @@ git log --oneline --decorate
 
 
 
+
+Merge tools
+=======================================
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse 
+diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
 
 
 
