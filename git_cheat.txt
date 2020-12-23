@@ -53,6 +53,7 @@ git branch --move <old> <new>
 git push --set-upstream origin main		This makes the renamed branch available on the remote.
 
 
+<<<<<<< HEAD
 git config (man git-config)
 ===============================================================================
 git config --global core.editor 		read value from config
@@ -69,6 +70,11 @@ git --help					help for git level
 
 git log
 ===============================================================================
+=======
+
+
+git log
+==============================================
 git log --oneline --decorate
 	shows you where the branch pointers are pointing.
 
@@ -78,6 +84,9 @@ git log --oneline --decorate
 
 Merge tools
 ===============================================================================
+=======
+Merge tools
+=======================================
 opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse 
 diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
 
@@ -86,10 +95,11 @@ Remote Branches
 ===============================================================================
 
 =======
+=======
 git branch branchname <sha1-of-commit>		I can make branch from anywhere
 						https://stackoverflow.com/a/2816728/5688267
 						https://stackoverflow.com/a/8491176/5688267
-=======
+
 git diff					before git add.
 						Show my unstaged changes, please.
 						I love diff, git status shows me quick info,
@@ -125,6 +135,7 @@ Google: gitk other tool than
 
 =======
 PR == Pull Request ))
+=======
 =======
 
 
