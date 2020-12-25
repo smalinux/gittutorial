@@ -208,4 +208,51 @@ git config alias.l '!ls'						# git l
 git config alias.g "log --all --decorate --oneline --graph"		# git g
 
 
+supplementary tools:
+========================
+https://github.com/tj/git-extras
+https://github.com/github/hub
+
+
+delete a Git branch locally and remotely
+[https://stackoverflow.com/a/23961231/5688267]
+[branch -d] vs [push origin --d]
+=============================================
+locally: 
+$ git branch -d <branch_name>
+
+remotely: 
+===
+Option 1:
+$ git push -d origin <branch_name>
+
+Option 2:
+$ git push <remote_name> -d <branch_name>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
