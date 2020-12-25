@@ -275,9 +275,10 @@ See also: https://docs.github.com/en/free-pro-team@latest/github/authenticating-
 
 git pull vs git fetch
 ====================================================================
-git pull = git push + merge.
+You love images, I know
+https://stackoverflow.com/a/30733500/5688267
+https://stackoverflow.com/a/34998582/5688267
 
-You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/
 
 
 
