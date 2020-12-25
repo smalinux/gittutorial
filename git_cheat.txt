@@ -215,7 +215,6 @@ git config alias.l '!ls'						# git l
 git config alias.g "log --all --decorate --oneline --graph"		# git g
 
 
-<<<<<<< HEAD
 supplementary tools:
 ========================
 https://github.com/tj/git-extras
@@ -299,6 +298,4 @@ You can do a git fetch at any time to update your remote-tracking branches under
 
 
 
-=======
->>>>>>> 660c72a22119885de0a8432aad11346f35f19f05
 
