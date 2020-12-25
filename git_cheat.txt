@@ -12,10 +12,13 @@ git checkout 					switch to another branch and check it out into your working di
 git merge [branch]				merge the specified branch’s history into the current one
 git log						show all commits in the current branch’s history
 
+<<<<<<< HEAD
 git branch -m <oldname> <newname>		rename local branch
 git branch -m <newname>				will change current branch name
 
 
+=======
+>>>>>>> 660c72a22119885de0a8432aad11346f35f19f05
 Branching & merging
 ===================
 git checkout master				Sit in your base branch 
@@ -212,6 +215,7 @@ git config alias.l '!ls'						# git l
 git config alias.g "log --all --decorate --oneline --graph"		# git g
 
 
+<<<<<<< HEAD
 supplementary tools:
 ========================
 https://github.com/tj/git-extras
@@ -295,4 +299,6 @@ You can do a git fetch at any time to update your remote-tracking branches under
 
 
 
+=======
+>>>>>>> 660c72a22119885de0a8432aad11346f35f19f05
 
