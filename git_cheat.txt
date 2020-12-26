@@ -271,7 +271,7 @@ See also: https://docs.github.com/en/free-pro-team@latest/github/authenticating-
 
 
 git pull vs git fetch
-====================================================================
+===============================================================================
 You love images, I know
 https://stackoverflow.com/a/30733500/5688267
 https://stackoverflow.com/a/34998582/5688267
@@ -285,15 +285,36 @@ https://stackoverflow.com/a/34998582/5688267
 
 
 
+Now I can merge two diffrante repo
+[https://stackoverflow.com/q/37937984/5688267]
+here I can merge only, NOT rebase.
+Thanks for god, there exist such solution.
+Sorry, your history not 100% clean & strightforward. (------>>------>>------>>)
+===============================================================================
+git remote add new-origin <repository url>
+git pull new-origin master --allow-unrelated-histories
+==========================
+*   f27c107 (HEAD -> master) Merge branch 'master' of https://github.com/smalinux/new-repo
+|\  
+| * 67c2685 (new-repo/master) commit 3 from new repo
+| * fc756d2 commit 3 from new repo 
+| * e6111e4 commit 2 from new repo 
+| * de4d84f commit 1 from new repo
+* 45baeb7 commit 1 from old repo
+* 45baeb7 commit 2 from old repo
+* 45baeb7 commit 3 from old repo
 
 
 
 
+[diff] Comparing two branches in Git
+[https://stackoverflow.com/a/9834872/5688267]
+===============================================================================
+git diff branch1 branch2
 
 
 
-
-
+hello
 
 
 
