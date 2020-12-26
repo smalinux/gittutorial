@@ -343,7 +343,28 @@ git merge <master> <new-branch>
 	$git merge new-feature
 	$git branch -d new-feature
 
+get list of changed files only:
+1. try:
+	$git diff master..branch | grep "^diff"
+2. or formal way:
+	$git diff --name-status firstbranch..yourBranchName
 
+
+git undo all uncommitted or unsaved changes
+[https://stackoverflow.com/a/14075772/5688267]
+later read: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
+===============================================================================
+1. This will unstage all files you might have staged with git add:
+	$git reset
+
+2.0 This will revert all local uncommitted changes (should be executed in repo root):
+	$git checkout .
+
+2.1 You can also revert uncommitted changes only to particular file or directory:
+	$git checkout [some_dir|file.txt]
+
+2.2 Yet another way to revert all uncommitted changes (longer to type, but works from any subdirectory):
+	$git reset --hard HEAD
 
 
 
