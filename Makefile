@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Set module name - i use 'sma_' prefix
 program_name = sma_chardev
 obj-m += sma_chardev.o
@@ -26,3 +27,8 @@ info:
 
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+=======
+
+all:
+	gcc x11.c -L/usr/X11R6/lib -lX11 -o x11
+>>>>>>> 80990818bb344bfe025e8a6ca0ce6e4526579559
