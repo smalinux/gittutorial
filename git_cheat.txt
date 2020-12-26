@@ -121,6 +121,9 @@ git difftool 					my love!
 						https://stackoverflow.com/a/3395497/5688267
 						Skipped: https://youtu.be/duqBHik7nRo?t=2690
 
+Compare two branches[i write it down]
+
+
 git bisect trick
 ==================
 Skipped part: https://youtu.be/duqBHik7nRo?t=2892
@@ -310,11 +313,16 @@ git pull new-origin master --allow-unrelated-histories
 [diff] Comparing two branches in Git
 [https://stackoverflow.com/a/9834872/5688267]
 ===============================================================================
-git diff branch1 branch2
+git diff branch1..branch2
 
+Compare spacific file between two branches:
+	$git diff branch1..branch2 your_file
 
+Compare local vs remote branch:
+	$git diff remotes/origin/some-branch my-local-branch 
 
-hello
+Compares the checked out branch to branch_2:
+	$git diff ..branch_2
 
 
 
