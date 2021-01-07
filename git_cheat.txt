@@ -324,6 +324,12 @@ Compare local vs remote branch:
 Compares the checked out branch to branch_2:
 	$git diff ..branch_2
 
+get list of changed files only:
+1. try:
+	$git diff master..branch | grep "^diff"
+2. or formal way:
+	$git diff --name-status firstbranch..yourBranchName
+
 
 
 merge forward
@@ -343,14 +349,9 @@ git merge <master> <new-branch>
 	$git merge new-feature
 	$git branch -d new-feature
 
-get list of changed files only:
-1. try:
-	$git diff master..branch | grep "^diff"
-2. or formal way:
-	$git diff --name-status firstbranch..yourBranchName
 
 
-git undo all uncommitted or unsaved changes
+[undo] git undo all uncommitted or unsaved changes
 [https://stackoverflow.com/a/14075772/5688267]
 later read: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
 ===============================================================================
